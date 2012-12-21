@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		FF2BBE801684B45D00D7A854 /* libModelKit.a in Frameworks */ = {isa = PBXBuildFile; fileRef = FF2BBE7A1684B44F00D7A854 /* libModelKit.a */; };
 		FF3C8CDF16393978009EB62A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FF3C8CDE16393978009EB62A /* UIKit.framework */; };
 		FF3C8CE116393978009EB62A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FF3C8CE016393978009EB62A /* Foundation.framework */; };
 		FF3C8CE316393978009EB62A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FF3C8CE216393978009EB62A /* CoreGraphics.framework */; };
@@ -31,7 +32,6 @@
 		FFBA0DA4163E543900B6560C /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = FFBA0D9D163E543900B6560C /* Default@2x.png */; };
 		FFBA0DA5163E543900B6560C /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = FFBA0D9E163E543900B6560C /* InfoPlist.strings */; };
 		FFBA0DA6163E543900B6560C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FFBA0DA0163E543900B6560C /* main.m */; };
-		FFBA0DAA163E550200B6560C /* libModelKit.a in Frameworks */ = {isa = PBXBuildFile; fileRef = FFBA0D7E163E53DB00B6560C /* libModelKit.a */; };
 		FFCFAA24163A7EE400BC2E3E /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FFCFAA23163A7EE400BC2E3E /* CFNetwork.framework */; };
 		FFCFAA29163A7F0900BC2E3E /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FFCFAA25163A7F0900BC2E3E /* CoreLocation.framework */; };
 		FFCFAA2A163A7F0900BC2E3E /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FFCFAA26163A7F0900BC2E3E /* MobileCoreServices.framework */; };
@@ -40,23 +40,23 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		FFBA0D7D163E53DB00B6560C /* PBXContainerItemProxy */ = {
+		FF2BBE791684B44F00D7A854 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = FF3C8D011639398B009EB62A /* ModelKit.xcodeproj */;
+			containerPortal = FF2BBE6C1684B44F00D7A854 /* ModelKit.xcodeproj */;
 			proxyType = 2;
 			remoteGlobalIDString = FFA54A9D16391DEA00F055A6;
 			remoteInfo = ModelKit;
 		};
-		FFBA0D7F163E53DB00B6560C /* PBXContainerItemProxy */ = {
+		FF2BBE7B1684B44F00D7A854 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = FF3C8D011639398B009EB62A /* ModelKit.xcodeproj */;
+			containerPortal = FF2BBE6C1684B44F00D7A854 /* ModelKit.xcodeproj */;
 			proxyType = 2;
 			remoteGlobalIDString = FFCFAA81163C655C00BC2E3E;
 			remoteInfo = TestCases;
 		};
-		FFBA0DA8163E54FD00B6560C /* PBXContainerItemProxy */ = {
+		FF2BBE7E1684B45900D7A854 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = FF3C8D011639398B009EB62A /* ModelKit.xcodeproj */;
+			containerPortal = FF2BBE6C1684B44F00D7A854 /* ModelKit.xcodeproj */;
 			proxyType = 1;
 			remoteGlobalIDString = FFA54A9C16391DEA00F055A6;
 			remoteInfo = ModelKit;
@@ -64,11 +64,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		FF2BBE6C1684B44F00D7A854 /* ModelKit.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = ModelKit.xcodeproj; path = "../../External/ModelKit/Static Library/ModelKit.xcodeproj"; sourceTree = "<group>"; };
 		FF3C8CDA16393978009EB62A /* ModelKitSample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ModelKitSample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FF3C8CDE16393978009EB62A /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		FF3C8CE016393978009EB62A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		FF3C8CE216393978009EB62A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		FF3C8D011639398B009EB62A /* ModelKit.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = ModelKit.xcodeproj; path = "../Static Library/ModelKit.xcodeproj"; sourceTree = "<group>"; };
 		FF9419691644D9CE0072BFDA /* CSMPTodoList.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CSMPTodoList.h; sourceTree = "<group>"; };
 		FF94196A1644D9CE0072BFDA /* CSMPTodoList.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CSMPTodoList.m; sourceTree = "<group>"; };
 		FF94196C1644DA480072BFDA /* CSMPTodoItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CSMPTodoItem.h; sourceTree = "<group>"; };
@@ -117,7 +117,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FFBA0DAA163E550200B6560C /* libModelKit.a in Frameworks */,
+				FF2BBE801684B45D00D7A854 /* libModelKit.a in Frameworks */,
 				FFCFAA29163A7F0900BC2E3E /* CoreLocation.framework in Frameworks */,
 				FFCFAA2A163A7F0900BC2E3E /* MobileCoreServices.framework in Frameworks */,
 				FFCFAA2B163A7F0900BC2E3E /* Security.framework in Frameworks */,
@@ -132,10 +132,19 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		FF2BBE6D1684B44F00D7A854 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FF2BBE7A1684B44F00D7A854 /* libModelKit.a */,
+				FF2BBE7C1684B44F00D7A854 /* TestCases.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
 		FF3C8CCF16393978009EB62A = {
 			isa = PBXGroup;
 			children = (
-				FF3C8D011639398B009EB62A /* ModelKit.xcodeproj */,
+				FF2BBE6C1684B44F00D7A854 /* ModelKit.xcodeproj */,
 				FF3C8CE516393978009EB62A /* Supporting Files */,
 				FF3C8CDD16393978009EB62A /* Frameworks */,
 				FF3C8CDB16393978009EB62A /* Products */,
@@ -189,15 +198,6 @@
 				FF9419A81644E0E00072BFDA /* NSString+ModelKitSample.m */,
 			);
 			path = Categories;
-			sourceTree = "<group>";
-		};
-		FFBA0D79163E53DB00B6560C /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				FFBA0D7E163E53DB00B6560C /* libModelKit.a */,
-				FFBA0D80163E53DB00B6560C /* TestCases.octest */,
-			);
-			name = Products;
 			sourceTree = "<group>";
 		};
 		FFBA0D82163E541000B6560C /* Source */ = {
@@ -273,7 +273,7 @@
 			buildRules = (
 			);
 			dependencies = (
-				FFBA0DA9163E54FD00B6560C /* PBXTargetDependency */,
+				FF2BBE7F1684B45900D7A854 /* PBXTargetDependency */,
 			);
 			name = ModelKitSample;
 			productName = CloudSample;
@@ -302,8 +302,8 @@
 			projectDirPath = "";
 			projectReferences = (
 				{
-					ProductGroup = FFBA0D79163E53DB00B6560C /* Products */;
-					ProjectRef = FF3C8D011639398B009EB62A /* ModelKit.xcodeproj */;
+					ProductGroup = FF2BBE6D1684B44F00D7A854 /* Products */;
+					ProjectRef = FF2BBE6C1684B44F00D7A854 /* ModelKit.xcodeproj */;
 				},
 			);
 			projectRoot = "";
@@ -314,18 +314,18 @@
 /* End PBXProject section */
 
 /* Begin PBXReferenceProxy section */
-		FFBA0D7E163E53DB00B6560C /* libModelKit.a */ = {
+		FF2BBE7A1684B44F00D7A854 /* libModelKit.a */ = {
 			isa = PBXReferenceProxy;
 			fileType = archive.ar;
 			path = libModelKit.a;
-			remoteRef = FFBA0D7D163E53DB00B6560C /* PBXContainerItemProxy */;
+			remoteRef = FF2BBE791684B44F00D7A854 /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
-		FFBA0D80163E53DB00B6560C /* TestCases.octest */ = {
+		FF2BBE7C1684B44F00D7A854 /* TestCases.octest */ = {
 			isa = PBXReferenceProxy;
 			fileType = wrapper.cfbundle;
 			path = TestCases.octest;
-			remoteRef = FFBA0D7F163E53DB00B6560C /* PBXContainerItemProxy */;
+			remoteRef = FF2BBE7B1684B44F00D7A854 /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
 /* End PBXReferenceProxy section */
@@ -372,10 +372,10 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		FFBA0DA9163E54FD00B6560C /* PBXTargetDependency */ = {
+		FF2BBE7F1684B45900D7A854 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = ModelKit;
-			targetProxy = FFBA0DA8163E54FD00B6560C /* PBXContainerItemProxy */;
+			targetProxy = FF2BBE7E1684B45900D7A854 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -444,9 +444,9 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "ModelKitSample/Source/App/ModelKitSample-Prefix.pch";
 				HEADER_SEARCH_PATHS = (
-					"\"$(SRCROOT)/../../Source\"/**",
-					"\"$(SRCROOT)/../../External/JSONKit\"",
-					"\"$(SRCROOT)/../../External/AFNetworkingStatic/External/AFNetworking/AFNetworking\"",
+					"\"$(SRCROOT)/../../External/ModelKit/Source\"/**",
+					"\"$(SRCROOT)/../../External/ModelKit/External/JSONKit\"",
+					"\"$(SRCROOT)/../../External/ModelKit/External/AFNetworkingStatic/External/AFNetworking/AFNetworking\"",
 				);
 				INFOPLIST_FILE = "ModelKitSample/ModelKitSample-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
@@ -462,9 +462,9 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "ModelKitSample/Source/App/ModelKitSample-Prefix.pch";
 				HEADER_SEARCH_PATHS = (
-					"\"$(SRCROOT)/../../Source\"/**",
-					"\"$(SRCROOT)/../../External/JSONKit\"",
-					"\"$(SRCROOT)/../../External/AFNetworkingStatic/External/AFNetworking/AFNetworking\"",
+					"\"$(SRCROOT)/../../External/ModelKit/Source\"/**",
+					"\"$(SRCROOT)/../../External/ModelKit/External/JSONKit\"",
+					"\"$(SRCROOT)/../../External/ModelKit/External/AFNetworkingStatic/External/AFNetworking/AFNetworking\"",
 				);
 				INFOPLIST_FILE = "ModelKitSample/ModelKitSample-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
