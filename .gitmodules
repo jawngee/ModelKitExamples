@@ -1,0 +1,3 @@
+[submodule "External/ModelKit"]
+	path = External/ModelKit
+	url = git://github.com/jawngee/ModelKit.git

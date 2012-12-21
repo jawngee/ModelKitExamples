@@ -1,0 +1,11 @@
+{
+    "applications": {
+        "ToDoExample": {
+            "applicationId": "0Pu7jpVNDjKRuYYbu2bJPltsCBh16LxaXhsDjROa", 
+            "masterKey": "8RDA8o4kpMZYGnhpN6Z8AenXFW5WgHjzvYUR5zrB"
+        }, 
+        "_default": {
+            "link": "ToDoExample"
+        }
+    }
+}
